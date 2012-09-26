@@ -59,6 +59,11 @@ The order of the attributes is as follows, and they are set in foreground-backgr
 	10. directory writable to others, with sticky bit
 	11. directory writable to others, without sticky bit
 	
+To reload (either one): 
+
+	source ~/.bash_profile
+	. ~/.bash_profile
+	
 	
 ## Make nano colorful
 
