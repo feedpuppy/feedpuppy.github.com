@@ -6,31 +6,23 @@
 
 <div class="row">
   <div class="span8">
-   {% if post.summary %}  
-  <p>{{ post.summary | strip_html | truncatewords: 150 }}</p>
-  {% elsif post.description %}
-  <p>{{ post.description | strip_html | truncatewords: 100 }}</p>
-  {% else %}
-  <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-  {% endif %}
+   
+    {% if post.summary %}  
+    <p>{{ post.summary | strip_html | truncatewords: 150 }}</p>
+    {% else %}
+    <p>{{ post.content | strip_html | truncatewords: 80 }}</p>
+    {% endif %}
 
-  <p class><a href="{{ BASE_PATH }}{{ post.url }}">Read more...</a></p>
-    <hr>
-    
+    <p><a href="{{ BASE_PATH }}{{ post.url }}">Read more...</a></p>
+
   </div>
   
   <div class="span4">
     <h4>Published</h4>
     <div class="date"><span>{{ post.date | date_to_long_string }}</span></div>
-
-  {% unless post.tags == empty %}
-    <h4>Tags</h4>
-    <ul class="tag_box">
-    {% assign tags_list = post.tags %}
-    {% include JB/tags_list %}
-    </ul>
-  {% endunless %}  
   </div>
 </div>
+
+<hr>
 
 {% endfor %}
