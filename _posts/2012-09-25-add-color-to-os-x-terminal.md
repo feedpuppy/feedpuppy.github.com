@@ -9,7 +9,8 @@ tags: [terminal, OS X]
 
 ## Make ls ect colorful 
 
-*Source: [color terminal bash on the Mac (iTerm included)](http://blog.imzaid.com/color-terminal-bash-on-the-mac-iterm-included "color terminal bash on the Mac (iTerm included)")*
+*Source: [color terminal bash on the Mac (iTerm included)](http://blog.imzaid.com/color-terminal-bash-on-the-mac-iterm-included "color terminal bash on the Mac (iTerm included)")*  
+*Good reference: [OS X Lion Terminal Colours](http://noiseandheat.com/blog/2011/12/os-x-lion-terminal-colours/ "OS X Lion Terminal Colours")*
 
 Open up `~/.bash_profile` and paste the following codes:
 
