@@ -3,7 +3,7 @@ layout: post
 title: "Setting Locales Errors"
 description: ""
 category: Tech Notes
-tags: [locales, linux]
+tags: [Linux]
 ---
 
 The error message says:
