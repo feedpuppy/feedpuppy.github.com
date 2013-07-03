@@ -70,7 +70,7 @@ To reload (either one):
 
 *Source: [Compile latest version of nano with syntax highlighting](http://wimpyshell.net/2012/01/18/mac-osx-lion-compile-latest-version-of-nano-with-syntax-highlighting "Compile latest version of nano with syntax highlighting")*
 
-Download the latest version (2.2.6) of nano from [here](http://www.nano-editor.org/download.php.). Unzip the file, build and install. 
+Download the latest version (2.2.6) of nano from [here](http://www.nano-editor.org/download.php). Unzip the file, build and install. 
 
 	tar -xvf nano*
 	cd nano*
