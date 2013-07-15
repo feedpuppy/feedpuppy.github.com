@@ -1,10 +1,14 @@
 ---
+published: true
 layout: post
-title: "Add color to OS X terminal"
+title: Add color to OS X terminal
 description: ""
 category: Tech Notes
-tags: [terminal, OS X]
+tags: 
+  - terminal
+  - OS X
 ---
+
 {% include JB/setup %}
 
 ## Make ls ect colorful 
