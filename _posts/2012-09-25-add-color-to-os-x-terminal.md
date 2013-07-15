@@ -9,6 +9,7 @@ tags:
   - OS X
 ---
 
+{% include JB/setup %}
 
 ## Make ls etc colorful 
 
