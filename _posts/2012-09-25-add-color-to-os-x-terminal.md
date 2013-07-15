@@ -9,9 +9,8 @@ tags:
   - OS X
 ---
 
-{% include JB/setup %}
 
-## Make ls ect colorful 
+## Make ls etc colorful 
 
 *Source: [color terminal bash on the Mac (iTerm included)](http://blog.imzaid.com/color-terminal-bash-on-the-mac-iterm-included "color terminal bash on the Mac (iTerm included)")*  
 *Good reference: [OS X Lion Terminal Colours](http://noiseandheat.com/blog/2011/12/os-x-lion-terminal-colours/ "OS X Lion Terminal Colours")*
